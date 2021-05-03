@@ -14,6 +14,17 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
+  "homepage": "https://sengmitnick.github.io/dconvert-array/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sengmitnick/dconvert-array.git"
+  },
+  "keywords": [
+    "dconvert",
+    "convert",
+    "array"
+  ],
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
