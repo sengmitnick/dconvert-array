@@ -1,7 +1,7 @@
 {
   "name": "dconvert-array",
   "description": "Convert 1d array to 2d array",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
