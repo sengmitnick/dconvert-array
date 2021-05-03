@@ -24,6 +24,10 @@
     "convert",
     "array"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
