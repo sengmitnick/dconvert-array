@@ -1,12 +1,13 @@
 {
   "name": "dconvert-array",
-  "description": "",
+  "description": "Convert 1d array to 2d array",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",
+    "pub": "npm run build && lerna publish",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "release": "npm run build && npm publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
@@ -27,8 +28,7 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "react": "^16.12.0",
     "@umijs/test": "^3.0.5",
@@ -37,6 +37,7 @@
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "lerna": "^2.11.0",
     "yorkie": "^2.0.0"
   }
 }
